@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<meta viewport="width=device-width, minimun-scale=1, inital-scale=1">
+		<title>Doc YourCommence</title>
+		<link rel=stylesheet href=./css/styles.css> 
+	</head>
+	<body>
+		<header>
+			<h1>Create website structure</h1>
+		</header>
+		<main>
+		<form id=form-page>
+            <label for=site-input>
+				Site
+			    <input id=site-input placeholder=Site>
+			</label>
+			<button id=add-site>Add site</button><br>
+			<label for=page-input>
+				Page
+				<input id=page-input placeholder=Page>
+			</label>
+			<button id=add-page>Add page</button><br>
+			<label for=funct-input>
+				Funct
+				<input id=funct-input placeholder="Page funcionality">
+			</label><button id=add-funct>Add funct</button><br>
+            <label for=site-select>
+				Select site to interact:
+				<select id=site-select>
+					<option value=""></option>
+				</select>
+			</label>
+			<label for=page-select>
+				Select page to interact:
+				<select id=page-select>
+					<option value=""></option>
+				</select>
+			</label>
+			<div id=button>
+                <button id=remove-site>Remove site</button>
+				<button id=remove-page>Remove page</button>
+				<button id=remove-funct>Delete last funct</button>
+			</div>
+		</form>
+		<div id=view></div><br>
+
+        <label for=structure>
+            Json Website structure<br>
+            <textarea id=structure-textarea></textarea>
+        </label><br>
+
+        <button id=add-structure>Upload website structures</button>
+        <button id=save>Save website structures</button>
+		</main>
+		<script type=module src=./js/index.js></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+	</body>
+</html>

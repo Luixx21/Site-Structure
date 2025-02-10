@@ -1,0 +1,46 @@
+/* Área de Exibição */
+#view {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+.pages {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para cada Página */
+.page {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #4CAF50;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page strong {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+/* Listas de Funções */
+ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ol li {
+    margin: 5px 0;
+    padding: 5px;
+    background: #e0e0e0;
+    border-radius: 5px;
+}
+
